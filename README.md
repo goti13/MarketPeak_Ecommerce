@@ -23,7 +23,8 @@ A suitable website template is found [here](https://www.tooplate.com/) to kickst
   
   ```
 
-  <img width="637" alt="image" src="https://github.com/user-attachments/assets/815d99a6-9ce5-48d1-823c-bf625e8a0276">
+ ![image](https://github.com/user-attachments/assets/62cf04dd-753c-46b6-8dfc-c5b283ba8a51)
+
 
   
 ## 1.2. Obtain and Prepare the E-Commerce Website Template
@@ -41,7 +42,8 @@ Instead of developing the website from scratch, I’ll use a pre-existing e-comm
       
     ```
     
-    <img width="637" alt="image" src="https://github.com/user-attachments/assets/e5f327da-32a0-4831-b310-376812181cb8">
+    ![image](https://github.com/user-attachments/assets/3b5ec61a-c025-49fd-a788-363039b78e8d)
+
 
 
 
@@ -61,7 +63,9 @@ Instead of developing the website from scratch, I’ll use a pre-existing e-comm
 
   ```
   
-  <img width="932" alt="image" src="https://github.com/user-attachments/assets/3995a443-066d-45b7-9e3b-607f2829cbdc">
+ ![image](https://github.com/user-attachments/assets/4d93d7c5-4b38-4405-88e9-bec8dcdf3ed6)
+
+
 
 
 ## 1.4 Push the code to your Github repository
@@ -73,7 +77,8 @@ After initializing your Git repository and adding your e-commerce website templa
   repository empty without initializing it with a README, gitignore, or license.
 
 
-  <img width="292" alt="image" src="https://github.com/user-attachments/assets/9ed4ce87-9062-44af-b580-bf7ac935bb93">
+  ![image](https://github.com/user-attachments/assets/368fb42c-2dbd-4d12-88e7-d97315f345d6)
+
 
 
  
@@ -82,7 +87,8 @@ After initializing your Git repository and adding your e-commerce website templa
 
 
 
-  <img width="641" alt="image" src="https://github.com/user-attachments/assets/eace259f-2f6d-4ca1-8069-ef56e12a54b4">
+  ![image](https://github.com/user-attachments/assets/cd7cfd01-eabb-487c-bce3-a90d11e95afb)
+
   
 
 
@@ -90,7 +96,7 @@ After initializing your Git repository and adding your e-commerce website templa
 - ﻿﻿Link Your Local Repository to GitHub: In your terminal, within your project directory, add the remote repository URL to your local repository configuration.
 
    ```
-    git remote add origin https://github.com/goti13MarketPeak_Ecommerce.git
+    git remote add origin https://github.com/your-git-username/MarketPeak_Ecommerce.git
 
   ```
  Note: Make sure you replace "your-git-username" with your actual git username
@@ -101,7 +107,8 @@ After initializing your Git repository and adding your e-commerce website templa
 
   ```
   
- <img width="843" alt="image" src="https://github.com/user-attachments/assets/ebda504a-2414-4320-88eb-a0a9d15a2d5a">
+ ![image](https://github.com/user-attachments/assets/16a63266-1916-4267-a542-74104505753e)
+
 
 
   
@@ -122,14 +129,18 @@ Before deploying your e-commerce platform, you need to clone the GitHub reposito
 
 1. ﻿﻿﻿Navigate to your repository in github console
 2. ﻿﻿﻿Select the code as highlighted in the image below.
-   <img width="672" alt="tPeak_Ecommerce" src="https://github.com/user-attachments/assets/86ae49a3-fbb8-4451-bd5d-a00919a800e1">
+
+
+    ![image](https://github.com/user-attachments/assets/9ccd8230-446f-4ff9-a5bc-d4cab59e1a80)
+
 
 
 SSH Method:
 
 - On your EC2 instance, generate SSH keypair using ssh-keygen.
   
-  <img width="634" alt="image" src="https://github.com/user-attachments/assets/7e10dc80-0c96-4062-91b2-cfa6e3d25640">
+  ![image](https://github.com/user-attachments/assets/bf49ac7e-b28c-499f-9cb8-79522e89e39a)
+
 
 
 
@@ -138,13 +149,16 @@ SSH Method:
   ```
        cat ~/.ssh/id_rsa.pub 
   ```
-  <img width="562" alt="image" src="https://github.com/user-attachments/assets/81f7cea7-dfa5-4202-8c17-e1f1c3fcec02">
+  ![image](https://github.com/user-attachments/assets/51258190-63e7-4ba8-9731-d4f567347a49)
+
 
 
 Note: Your ssh public key will different
 - Add the SSH public key to your GitHub
    click on the profile image of your git repository (top right hand side) => Settings => "ssh and gpg keys" => "new ssh key" => paste the copied ssh key => click "save key"
-   <img width="969" alt="Pasted Graphic 12" src="https://github.com/user-attachments/assets/96e5b027-ae13-4f2e-aee0-f37d739011e5">
+
+  ![image](https://github.com/user-attachments/assets/13405af2-5a65-47de-ba89-5946212ccec4)
+
 
 - Install git
 
@@ -167,7 +181,8 @@ For repositories that you plan to clone without setting up SSH keys, use the HTT
 
   ```
 
-  <img width="648" alt="image" src="https://github.com/user-attachments/assets/6c5caf61-5a6b-4a6b-91f5-ae4ff29969ae">
+  ![image](https://github.com/user-attachments/assets/4cfc0db7-7d94-4dea-aa0a-84358ecc2b06)
+
 
   
 2.3. Install a Web Server on EC2
@@ -196,7 +211,8 @@ To serve the website from the EC2 instance, configure httpd to point to the dire
 
 ```
 
-<img width="757" alt="image" src="https://github.com/user-attachments/assets/1f42f78b-6b04-4d80-9924-cb4ca6be6321">
+![image](https://github.com/user-attachments/assets/60e4014c-5122-45a4-afb5-13a2dec5aa3d)
+
 
 
 The directory /var/www/html/ is a standard directory structure on Linux systems that host web content, particularly for the Apache HTTP Server.
@@ -215,7 +231,8 @@ When you install Apache on a Linux system, the installation process automaticall
 - ﻿﻿With httpd configured and website files in place, MarketPeak Ecommerce platform is now live on the internet
 - ﻿﻿Open a web browser and access the public IP of your EC2 instance to view the deployed
 
-  <img width="900" alt="image" src="https://github.com/user-attachments/assets/06a1c587-524c-4e3e-a174-ed5446827ca5">
+  ![image](https://github.com/user-attachments/assets/e179f11c-136d-4292-845c-9c78d2a3cefc)
+
 
 
 
@@ -233,13 +250,15 @@ Step 1: Developing New Features and Fixes
 
   ```
 
-  <img width="424" alt="image" src="https://github.com/user-attachments/assets/972af215-19d1-472a-b7dd-c0b42c8d39c3">
+  ![image](https://github.com/user-attachments/assets/f2a0fe6e-0fa0-4f73-85f4-b65e43c12bde)
+
 
 
 - Implement Changes: On the development branch, add your new features or bug fixes. This might include updating web pages, adding new products, or fixing known issues.
 
 
-  <img width="821" alt="image" src="https://github.com/user-attachments/assets/682cec9f-b6f0-460e-88a4-6712432f03cc">
+  ![image](https://github.com/user-attachments/assets/84874b40-70d2-40e2-a450-9686bfdc81a4)
+
 
 
 Step 2: Version Control with Git
@@ -252,7 +271,8 @@ Step 2: Version Control with Git
   
   ```
 
-  <img width="656" alt="image" src="https://github.com/user-attachments/assets/af0d0f27-c676-406a-828c-3d90da5e209f">
+  ![image](https://github.com/user-attachments/assets/90e01231-ba3e-4b17-bf03-4be74f06bfef)
+
 
 
 
@@ -268,7 +288,8 @@ Step 2: Version Control with Git
   ```
 
 
-  <img width="422" alt="image" src="https://github.com/user-attachments/assets/8f4c183c-ccaf-43c5-85a8-a4de25399e63">
+  ![image](https://github.com/user-attachments/assets/1dcdc05f-8103-4dee-bdee-c1f4eaa43618)
+
   
   
 
@@ -282,7 +303,8 @@ Step 2: Version Control with Git
 
   ```
 
-  ![image](https://github.com/user-attachments/assets/bd7a607c-7f22-446a-a743-0e7d4a1adc9a)
+  ![image](https://github.com/user-attachments/assets/9b6f01a9-8aec-4428-9d1c-577c2c18301c)
+
 
 
 
@@ -291,11 +313,7 @@ Step 3: Pull Requests and Merging to the Main branch
 - Create a Pull Request (PR): On GitHub, create a pull request to merge the development branch into the main branch. This process is crucial for code review and maintaining code quality.
 
 
-  <img width="708" alt="image" src="https://github.com/user-attachments/assets/4cf1cde0-3c49-478c-a7f2-466dbcf1772f">
-
-
-  <img width="854" alt="image" src="https://github.com/user-attachments/assets/d8bb7d49-179b-483f-9c88-7ed0a65fee90">
-
+  ![image](https://github.com/user-attachments/assets/de566bf5-b788-46d0-83c5-aa4044f767d1)
 
 
 
@@ -311,7 +329,8 @@ Step 3: Pull Requests and Merging to the Main branch
   ```
 
 
-  <img width="432" alt="image" src="https://github.com/user-attachments/assets/4d95a353-fa43-4962-b521-17c7bd59b799">
+  ![image](https://github.com/user-attachments/assets/579addf4-d796-47f2-947c-cffa0c70be1c)
+
 
 - Push the Merged Changes to GitHub: Ensure that your local main branch, now containing the updates, is pushed to the remote repository on GitHub.
 
@@ -321,7 +340,9 @@ Step 3: Pull Requests and Merging to the Main branch
 
   ``` 
 
-  <img width="489" alt="image" src="https://github.com/user-attachments/assets/7d710a82-031d-408d-8317-baabe2f63379">
+
+  ![image](https://github.com/user-attachments/assets/5b065cb2-a6a2-4d6c-9c21-c31657ed2a99)
+
 
 
 Step 4: Deploying Updates to the Production Server
@@ -329,7 +350,8 @@ Step 4: Deploying Updates to the Production Server
 
 - Pull the Latest Changes on the Server: SSH into your AWS EC2 instance where the production website is hosted. Navigate into directory where you cloned the website and pull the latest changes from the main branch.
 
-  <img width="561" alt="image" src="https://github.com/user-attachments/assets/48af553e-cabf-4bb0-98f3-454cf67126f4">
+  ![image](https://github.com/user-attachments/assets/5a3bae12-5c2e-439f-b8e7-b78f5b5fbe23)
+
 
 
 -  Now copy the changes to the httpd directory
@@ -347,12 +369,14 @@ Step 4: Deploying Updates to the Production Server
 
 ```
 
-  <img width="988" alt="image" src="https://github.com/user-attachments/assets/1c5b3acc-b1f5-45b1-8b96-c2cd32d4d562">
+  ![image](https://github.com/user-attachments/assets/74369671-e10d-43d3-9f69-d2d7ec7643cb)
+
 
 
 Step 5: Testing the New Changes
 
 - Access the Website: Open a web browser and navigate to the public IP address of your EC2 instance. Test the new features or fixes to ensure they work as expected in the live environment.
+  From the Image above, We can see that the modification of "Gerald Oti interior" we made on the index.html file of the title section has now reflected on the webpage.
 
-This workflow emphasizes best practices in software development and deployment, including branch management, code review through pull requests, and continuous integration/ deployment strategies. By     following these steps, you maintain a stable and up-to-date production environment for your e-commerce
+This workflow emphasizes best practices in software development and deployment, including branch management, code review through pull requests, and continuous integration/ deployment strategies. By following these steps, you maintain a stable and up-to-date production environment for your e-commerce application.
 

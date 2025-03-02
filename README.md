@@ -378,5 +378,4 @@ Step 5: Testing the New Changes
 - Access the Website: Open a web browser and navigate to the public IP address of your EC2 instance. Test the new features or fixes to ensure they work as expected in the live environment.
   From the Image above, We can see that the modification of "Gerald Oti interior" we made on the index.html file of the title section has now reflected on the webpage.
 
-This workflow emphasizes best practices in software development and deployment, including branch management, code review through pull requests, and continuous integration/ deployment strategies. By following these steps, you maintain a stable and up-to-date production environment for your e-commerce application.
-
+This workflow emphasizes best practices in software development and deployment, including branch management, code review through pull requests, and continuous integration/ deployment strategies. By following these steps, you maintain a stable and up-to-date production environment for your e-commerce application..
